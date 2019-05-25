@@ -75,10 +75,9 @@
 				//new $('#main').parent().css('color','#00FF00','text-align','center');
 				//new $('#main').html('1234');
 				//new $('#main').text('1');
-				//new $('#main').append('<h1>啊哈</h1>');
+				//new $('#main').append('');
 				//new $('#main').children(1).css('color','#00FF00','text-align','center');
-				//new $('#main').append('<h1>aaa</h1>');
-				//new $('#main').prepend('<h1>aaa</h1>');
+				//new $('#main').prepend('');
 				//new $('#main').html();
 				//new $('#main').hide();//切换为显示完成
 				//new $('#main').height();//获取高度成功
