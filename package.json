@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.5.0",
+    "ts-loader": "^3.5.0",
+    "typescript": "^3.4.5",
+    "webpack": "^3.12.0"
+  }
+}
