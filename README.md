@@ -2,68 +2,7 @@
 这是用Ts开发的jQuery，骨架已完成，因为是个人开发，水平有限，工程量大，精力不够，所以需要大家的帮助，热烈欢迎提pr，热烈欢迎提pr，热烈欢迎提pr，重要的事说三遍，你们编程的水平比我强多了，未测试，BUG很多，因为个人精力实在是太有限了。
 另外，这框架我都感觉自己写的low，别喷我，有什么好的建议，欢迎加QQ1162091199，请大牛多指点。
 实现了，63个常用的方法，基本和官方文档方法一样。
-    ready(fn);
-    html(arg);
-    text(arg);
-    css(arg);//参数为字符串
-    addClass(arg);//参数为字符串
-    removeClass(arg);
-    toggleClass(arg);
-    attr(name, arg);
-    trim(str);
-    trimAll(str);
-    val(arg);
-    after(arg);
-    before(arg);
-    prepend(arg);
-    append(arg);
-    remove(arg);
-    height(arg);
-    width(arg);
-    innerHeight(arg);
-    innerWidth(arg);
-    outerHeight(arg);
-    outerWidth(arg);
-    click(fun);
-    dblclick(fun);
-    mouseup(fun);
-    focus(fun);
-    blur(fun);
-    select(fun);
-    change(fun);
-    onload(fun);
-    unload(fun);
-    mouseover(fun);
-    mouseout(fun);
-    hover(fun1, fun2);
-    mouseenter(fun);
-    mouseleave(fun);
-    keypress(fun);
-    keydown(fun);
-    keyup(fun);
-    submit(fun);
-    resize(fun);
-    scroll(fun);
-    show(time, callback);
-    hide(time, callback);
-    animate(json, interval, sp, fn);
-    animateRun(obj, json, interval, sp, fn);
-    stop();
-    empty();
-    each(object, callback);
-    parents();
-    parent();
-    children(num);
-    siblings(arg);
-    next();
-    nextAll();
-    prev();
-    prevAll();
-    first();
-    last();
-    eq(index);
-    filter(arg);
-    not(arg);
+
     方法简单使用介绍,方法前要加new。这问题目前还没解决。
         //new $('#main').toggleClass('testMain', 'testMain');
 				//new $('#main').css('color','#00FF00');
