@@ -3,24 +3,24 @@
 另外，这框架我都感觉自己写的low，别喷我，有什么好的建议，欢迎加QQ1162091199，请大牛多指点。
 实现了，63个常用的方法，基本和官方文档方法一样。
 
-    方法简单使用介绍,方法前要加new。这问题目前还没解决。
-        //new $('#main').toggleClass('testMain', 'testMain');
-				//new $('#main').css('color','#00FF00');
-				//new $('#main').addClass('testMain','testMain');
-				//new $('#main').html('1234');
-				//new $('p').parents();
-				//new $('p').hide();
-				//new $('#main').children(0);
-				//new $('#main').parent().css('color','#00FF00','text-align','center');
-				//new $('#main').html('1234');
-				//new $('#main').text('1');
-				//new $('#main').append('');
-				//new $('#main').children(1).css('color','#00FF00','text-align','center');
-				//new $('#main').prepend('');
-				//new $('#main').html();
-				//new $('#main').hide();//切换为显示完成
-				//new $('#main').height();//获取高度成功
-				//new $('#main').width();//获取宽度成功
+	方法简单使用介绍,方法前要加new。这问题目前还没解决。
+	//new $('#main').toggleClass('testMain', 'testMain');
+	//new $('#main').css('color','#00FF00');
+	//new $('#main').addClass('testMain','testMain');
+	//new $('#main').html('1234');
+	//new $('p').parents();
+	//new $('p').hide();
+	//new $('#main').children(0);
+	//new $('#main').parent().css('color','#00FF00','text-align','center');
+	//new $('#main').html('1234');
+	//new $('#main').text('1');
+	//new $('#main').append('');
+	//new $('#main').children(1).css('color','#00FF00','text-align','center');
+	//new $('#main').prepend('');
+	//new $('#main').html();
+	//new $('#main').hide();//切换为显示完成
+	//new $('#main').height();//获取高度成功
+	//new $('#main').width();//获取宽度成功
     目前所存在的问题：
     1、采用ES6面向对象，每一次运行，都要new一次。之前我在js上用原型链的时候，并不需要new，这个问题还没解决。
     2、项目中，BUG非常非常多，很多方法都没测试，希望大家共同开发。
